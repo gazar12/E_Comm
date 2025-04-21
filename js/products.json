@@ -1,0 +1,88 @@
+[
+    {
+        "id":1,
+        "image":"../image/1.jpg",
+        "name":"Real Madrid ",
+        "price":150,
+        "category":"Football-Kits"
+    },
+    {
+        "id":2,
+        "image":"../image/3.jpg",
+        "name":"Barcelona",
+        "price":100,
+        "category":"Football-Kits"
+    },
+    {
+        "id":3,
+        "image":"../image/6.jpg",
+        "name":"Liverpool",
+        "price":100,
+        "category":"Football-Kits"
+    },
+    {
+        "id":4,
+        "image":"../image/7.jpg",
+        "name":"Man City",
+        "price":100,
+        "category":"Football-Kits"
+    },
+    {
+        "id":5,
+        "image":"../image/11.jpg",
+        "name":"Army Shirt",
+        "price":50,
+        "category":"Summer-Collection"
+    },
+    {
+        "id":6,
+        "image":"../image/12.jpg",
+        "name":"Navy Shirt",
+        "price":50,
+        "category":"Summer-Collection"
+    },
+    {
+        "id":7,
+        "image":"../image/14.jpg",
+        "name":"black Shirt",
+        "price":60,
+        "category":"Summer-Collection"
+    },
+    {
+        "id":8,
+        "image":"../image/15.jpg",
+        "name":"White Shirt",
+        "price":60,
+        "category":"Summer-Collection"
+    },
+    {
+        "id":9,
+        "image":"../image/23.jpg",
+        "name":"Black Jacket",
+        "price":400,
+        "category":"Winter-Collection"
+    },
+    {
+        "id":10,
+        "image":"../image/26.jpg",
+        "name":"Navy Jacket",
+        "price":400,
+        "category":"Winter-Collection"
+    },
+    {
+        "id":11,
+        "image":"../image/22.jpg",
+        "name":"White Hoodie",
+        "price":300,
+        "category":"Winter-Collection"
+    },
+    {
+        "id":12,
+        "image":"../image/23.jpg",
+        "name":"Black Hoodie",
+        "price":300,
+        "category":"Winter-Collection"
+    }
+    
+    
+]
