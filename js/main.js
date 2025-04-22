@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonStates = JSON.parse(localStorage.getItem("buttonStates")) || [];
   let allProducts = [];
   // Fetch the products data
-  fetch("products.json")
+  fetch("js/products.json")
     .then(response => {
       if (!response.ok) {
         throw new Error(`Network Error: ${response.status}`);
