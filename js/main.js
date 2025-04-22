@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const buttonStates = JSON.parse(localStorage.getItem("buttonStates")) || [];
   let allProducts = [];
   // Fetch the products data
-  fetch("../js/products.json")
+  fetch("products.json")
     .then(response => {
       if (!response.ok) {
         throw new Error(`Network Error: ${response.status}`);
@@ -43,9 +43,9 @@ document.addEventListener("DOMContentLoaded", () => {
         </div>
         <div class="icons">
           <span class="btn_add_cart ${buttonStates.includes(product.id.toString()) ? 'active' : ''}" data-id="${product.id}">
-            ${buttonStates.includes(product.id.toString()) 
-              ? '<i class="fa-solid fa-check"></i> Item in cart'
-              : '<i class="fa-solid fa-basket-shopping"></i> Add To Cart'}
+            ${buttonStates.includes(product.id.toString())
+        ? '<i class="fa-solid fa-check"></i> Item in cart'
+        : '<i class="fa-solid fa-basket-shopping"></i> Add To Cart'}
           </span>
         </div>
       </div>
