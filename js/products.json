@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "image":"../image/1.jpg",
+        "image":"./image/1.jpg",
         "name":"Real Madrid ",
         "price":150,
         "category":"Football-Kits"
